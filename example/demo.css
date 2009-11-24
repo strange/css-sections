@@ -1,0 +1,14 @@
+body {
+    background: #FFF url(grid.png) center top repeat-y;
+}
+
+.sections {
+    background: wheat;
+    padding: 20px 0;
+    margin: 0 auto 20px;
+}
+
+.section {
+    background: darksalmon;
+    color: darksalmon;
+}

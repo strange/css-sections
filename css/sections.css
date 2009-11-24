@@ -1,0 +1,18 @@
+.sections {
+    width: 960px;
+    overflow: hidden;
+}
+
+.sections .section {
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 140px;
+}
+
+.sections .section.halfweight { width: 60px; }
+.sections .section.doubleweight { width: 300px; }
+.sections .section.tripleweight { width: 460px; }
+.sections .section.quadweight { width: 620px; }
+.sections .section.quinweight { width: 780px; }
