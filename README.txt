@@ -25,8 +25,9 @@ CSS file included in this repository is applied.
 
 The following weight-changing CSS classes are defined:
 
-* `.doubleweight` (takes up double the space of a regular section)
-* `.tripleweight` (dito but triple)
+* `.sesquiweight` (takes up one and a half the space of a regular section)
+* `.doubleweight` (dito but double the space)
+* `.tripleweight` (dito but triple the space)
 * `.quadweight` (dito but four times the space)
 * `.quinweight` (dito but five times the space)
 * `.halfweight` (half the space of a regular section)
@@ -40,7 +41,7 @@ container can take::
     doubleweight + quadweight = 2 + 4 = 6
     tripleweight + tripleweight = 3 + 3 = 6
     doubleweight + doubleweight + doubleweight = 2 + 2 + 2 = 6
-    halfweight + halfweight + quiweight = 0.5 + 0.5 + 5 = 6
+    halfweight + sesquiweight + quadweight = 0.5 + 1.5 + 4 = 6
 
 Usage
 =====
