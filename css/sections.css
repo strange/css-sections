@@ -12,6 +12,7 @@
 }
 
 .sections .section.halfweight { width: 60px; }
+.sections .sections.sesquiweight { width: 220px; }
 .sections .section.doubleweight { width: 300px; }
 .sections .section.tripleweight { width: 460px; }
 .sections .section.quadweight { width: 620px; }
