@@ -23,25 +23,28 @@ sections can claim additional "weight" but will as such reduce the amount of
 The "weight" the different sections claim is translated into `width` when the
 CSS file included in this repository is applied.
 
-The following weight-changing CSS classes are defined:
+A section container can display 12 sections of regular weight horizontally.
 
-* `.sesquiweight` (takes up one and a half the space of a regular section)
-* `.doubleweight` (dito but double the space)
+The following weight-changing CSS classes are defined (yes, trying to come up
+with more memorable names):
+
+* `.doubleweight` (takes up double the space of a regular section)
 * `.tripleweight` (dito but triple the space)
 * `.quadweight` (dito but four times the space)
 * `.quinweight` (dito but five times the space)
-* `.halfweight` (half the space of a regular section)
+* `.hexweight` (dito but six times the space)
+* `.septweight` (dito but seven times the space)
+* `.octweight` (dito but eight times the space)
+* `.nonweight` (dito but nine times the space)
+* `.decweight` (dito but ten times the space)
+* `.undecweight` (dito but eleven times the space)
 
-A section container can display six sections of regular weight horizontally.
 Use basic addition to calculate the number of sections of varying weights a
 container can take::
 
-    doubleweight + doubleweight + doubleweight = 2 + 2 + 2 = 6
-    regular section + quinweight = 1 + 5 = 6
-    doubleweight + quadweight = 2 + 4 = 6
-    tripleweight + tripleweight = 3 + 3 = 6
-    doubleweight + doubleweight + doubleweight = 2 + 2 + 2 = 6
-    halfweight + sesquiweight + quadweight = 0.5 + 1.5 + 4 = 6
+    quadweight + quadweight + quadweight = 4 + 4 + 4 = 12
+    doubleweight + decweight = 2 + 10 = 12
+    tripleweight + tripleweight + tripleweight = 3 + 3 + 3 = 12
 
 Usage
 =====
@@ -50,8 +53,8 @@ Just link the included stylesheet (`sections.css`) (or copy-paste it's contents
 into your own stylesheet) and add proper classes to your elements::
 
     <div class="sections">
-        <div class="section quinweight">Section</div>
-        <div class="section">Section</div>
+        <div class="section hexweight">Section</div>
+        <div class="section hexweight">Section</div>
     </div>
 
 See ``example/index.html`` for more examples.

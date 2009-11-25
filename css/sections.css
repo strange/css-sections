@@ -8,12 +8,16 @@
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    width: 140px;
+    width: 60px;
 }
 
-.sections .section.halfweight { width: 60px; }
-.sections .section.sesquiweight { width: 220px; }
-.sections .section.doubleweight { width: 300px; }
-.sections .section.tripleweight { width: 460px; }
-.sections .section.quadweight { width: 620px; }
-.sections .section.quinweight { width: 780px; }
+.sections .section.doubleweight { width: 140px; }
+.sections .section.tripleweight { width: 220px; }
+.sections .section.quadweight { width: 300px; }
+.sections .section.quinweight { width: 380px; }
+.sections .section.hexweight { width: 460px; }
+.sections .section.septweight { width: 540px; }
+.sections .section.octweight { width: 620px; }
+.sections .section.nonweight { width: 700px; }
+.sections .section.decweight { width: 780px; }
+.sections .section.undecweight { width: 860px; }
